@@ -1,0 +1,25 @@
+#vaquero img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 150px;
+    animation-name: desplazamiento;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes desplazamiento{
+    0%{
+		left: 0px;
+		transform: rotate(0deg);
+	}
+
+	50%{
+		left: 1100px;
+	}
+
+    100%{
+		left: 0px;
+	}
+}
